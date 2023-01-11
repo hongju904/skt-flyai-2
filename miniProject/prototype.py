@@ -39,7 +39,7 @@ if uploaded_file:
     # img show
     st.image(image, width=700)
     image = np.array(image)
-    image = image.reshape(-1, 244, 244, 1)
+    image = image.reshape(-1, 244, 244, 3)
     
     # button
     if st.button('분석'):
@@ -56,7 +56,7 @@ if uploaded_file:
             my_bar.progress(percent_complete + 1)
 
         # model load
-        model = tf.keras.models.load_model('model_final.h5')
+        model = tf.keras.models.load_model('model_voicekeeper.h5')
         # 예측
         y_pred = model.predict(image)
         # df
