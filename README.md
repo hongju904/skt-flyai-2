@@ -12,6 +12,7 @@
 |4주차|**<Deep Learning 모델>** 딥러닝 모델의 개념과 학습방식 강의. YOLO, RNN 등 실습|
 |5주차|**<Django, Cloud 기초>** Django web server 구축, Cloud 기초이론 학습|
 |6주차|**<Azure Cloud & MySQL>** Microsoft Azure을 사용한 ML Could 실습과 MySQL 기초|
+|6주차|**<OpenCV 프로그래밍>** 에지검출, 필터링, 기하학적 처리 등 기초학습과 TESSERACT 실습|
    
 - 2023.01.04 안드로이드 스튜디오 with java 특강
 - 2023.01.28 개발자 취업 특강
